@@ -1,0 +1,34 @@
+{
+	"name": "svelte-kit-pokedex",
+	"version": "0.0.1",
+	"scripts": {
+		"dev": "svelte-kit dev -p 5001",
+		"build": "svelte-kit build",
+		"preview": "svelte-kit preview -p 5001",
+		"lint": "prettier --check --plugin-search-dir=. . && eslint --ignore-path .gitignore .",
+		"format": "prettier --write --plugin-search-dir=. ."
+	},
+	"devDependencies": {
+		"@sveltejs/kit": "next",
+		"@typescript-eslint/eslint-plugin": "^4.32.0",
+		"@typescript-eslint/parser": "^4.32.0",
+		"autoprefixer": "^10.3.6",
+		"eslint": "^7.32.0",
+		"eslint-config-prettier": "^8.3.0",
+		"eslint-plugin-svelte3": "^3.2.1",
+		"prettier": "~2.4.1",
+		"prettier-plugin-svelte": "^2.4.0",
+		"svelte": "^3.43.1",
+		"svelte-preprocess": "^4.9.8",
+		"tailwindcss": "^2.2.16",
+		"tslib": "^2.3.1",
+		"typescript": "^4.4.3"
+	},
+	"type": "module",
+	"dependencies": {
+		"axios": "^0.22.0",
+		"node-sass": "^6.0.1",
+		"postcss": "8.0.9",
+		"svelte-generic-datepicker": "^0.0.10"
+	}
+}
